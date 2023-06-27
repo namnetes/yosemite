@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Yosemite
+Bundle-SymbolicName: Yosemite;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.27.0",
+ org.eclipse.ui;bundle-version="3.203.100"
+Bundle-Vendor: Solutions & Assistance Mainframe
+Automatic-Module-Name: Yosemite
+Bundle-ClassPath: .,
+ lib/log4j-api-2.20.0.jar,
+ lib/log4j-core-2.20.0.jar,
+ lib/log4j-osgi-2.20.0.jar
+Bundle-RequiredExecutionEnvironment: JavaSE-11

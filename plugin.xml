@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.menus">
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            id="com.lcl.yosemite.views"
+            name="Yosemite">
+      </category>
+      <view
+            category="com.lcl.yosemite.views"
+            class="com.lcl.yosemite.views.Samview"
+            icon="resources/images/moustache.ico"
+            id="com.lcl.yosemite.views.samview"
+            name="Sam"
+            restorable="true">
+      </view>
+   </extension>
+
+</plugin>
